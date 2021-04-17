@@ -11,9 +11,8 @@ console.log()
 console.log(chalk.blue.bold.bgWhite("----------------------LEVEL 1----------------------"))
 console.log()
 var score = 0;
-var leaderBoard = ["Hemanth","Nivash","Darshan"];
+var leaderBoard = ["Hemanth","Nivash","Darshan"]
 
-//questions and options
 var q1 = "Which of the following part of the Sun is visible to humans?\n1) Photosphere\n2) Corona\n3) Chromospheres\n4) Core\n"
 
 var q2 = "Which of the following part of the Sun is visible at the time of the eclipse?\n1) Photosphere\n2) Corona\n3) Chromosphere\n4) Core\n"
@@ -25,8 +24,6 @@ var q4 = "What is the time taken by the light of the Sun to reach the Earth?\n1)
 var q5 = "5. Which of the following is the largest planet of the Solar System according to size?\n1) Jupiter\n2) Saturn\n3) Neptune\n4) Uranus\n"
 
 
-
-//array of objects with correct options stored as values
 var questions = [{question:q1,answer:1},{question:q2,answer:2},{question:q3,answer:3},{question:q4,answer:4},{question:q5,answer:1}];
 
 for(var i=0;i<questions.length;i++){
@@ -75,11 +72,6 @@ if(score>=3){
   
   console.log();
 }
-
-
-
-
-
 
 }
 else{
